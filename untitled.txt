@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEAM JACKALS - Free Fire Esports Team Bangladesh</title>
+<meta name="description" content="TEAM JACKALS - Professional Free Fire esports team from Bangladesh. Full player roster, roles, UID, locations, and contact details.">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    /* Global Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #0d1117;
+        color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    a { color: #1ed760; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Header */
+    header {
+        background: linear-gradient(135deg, #ff6a00, #ee0979);
+        padding: 50px 20px;
+        text-align: center;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    }
+    header h1 {
+        font-size: 3rem;
+        color: #fff;
+        margin: 0;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    }
+    header p {
+        font-size: 1.3rem;
+        margin-top: 10px;
+        color: #ffffffcc;
+    }
+
+    /* Sections */
+    section {
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+    h2 {
+        font-size: 2.2rem;
+        color: #1ed760;
+        border-bottom: 2px solid #1ed760;
+        padding-bottom: 8px;
+        margin-bottom: 25px;
+    }
+
+    /* Highlights */
+    .highlight-list li {
+        font-size: 1.2rem;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+
+    /* Player Cards */
+    .player {
+        background: #161b22;
+        border-left: 5px solid #1ed760;
+        border-radius: 10px;
+        padding: 25px;
+        margin: 20px 0;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .player:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(30,215,96,0.6);
+    }
+    .player h3 {
+        font-size: 1.8rem;
+        color: #1ed760;
+        margin-bottom: 12px;
+    }
+    .player p {
+        font-size: 1.1rem;
+        margin: 5px 0;
+    }
+
+    /* Search Bar */
+    .search-container {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .search-container input[type="text"] {
+        width: 80%;
+        padding: 15px 20px;
+        border-radius: 50px;
+        border: none;
+        font-size: 1.2rem;
+        outline: none;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    /* Footer */
+    footer {
+        background-color: #111;
+        padding: 25px 20px;
+        text-align: center;
+        color: #888;
+    }
+</style>
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TEAM JACKALS",
+  "description": "Professional Free Fire esports team from Bangladesh.",
+  "member": [
+    {"@type": "Person", "name": "Antor", "additionalName": "—͞ANTORㅤ!i", "jobTitle": "Rusher 1", "identifier": "6777413431", "homeLocation": "Kishoreganj, Bangladesh"},
+    {"@type": "Person", "name": "Tanjil", "additionalName": "XT Killer", "jobTitle": "Rusher 2", "identifier": "2266666538", "homeLocation": "Mymensingh, Bangladesh"},
+    {"@type": "Person", "name": "Evan Ahmed", "additionalName": "TMR EVU", "jobTitle": "Supporter", "identifier": "2886099017", "homeLocation": "Kishoreganj, Bangladesh"},
+    {"@type": "Person", "name": "MD Nirob Hasan", "additionalName": "NIROB BHAI", "jobTitle": "Sniper", "identifier": "11393212294", "homeLocation": "Sherpur, Bangladesh"}
+  ]
+}
+</script>
+
+<script>
+function searchPlayers() {
+    let input = document.getElementById('playerSearch').value.toLowerCase();
+    let players = document.getElementsByClassName('player');
+    for (let i = 0; i < players.length; i++) {
+        let content = players[i].innerText.toLowerCase();
+        players[i].style.display = content.includes(input) ? '' : 'none';
+    }
+}
+</script>
+
+</head>
+<body>
+
+<header>
+    <h1>TEAM JACKALS</h1>
+    <p>Professional Free Fire Esports Team | Bangladesh</p>
+</header>
+
+<section>
+    <h2>Team Highlights</h2>
+    <ul class="highlight-list">
+        <li>Professional Free Fire esports team from Bangladesh 🇧🇩</li>
+        <li>Dedicated roles: Rusher, Supporter, Sniper</li>
+        <li>Active in local tournaments and custom matches</li>
+        <li>Rapidly gaining recognition in the Bangladeshi esports community</li>
+    </ul>
+</section>
+
+<section>
+    <div class="search-container">
+        <input type="text" id="playerSearch" onkeyup="searchPlayers()" placeholder="Search player by name or game name...">
+    </div>
+
+    <h2>Players</h2>
+
+    <div class="player">
+        <h3>Antor</h3>
+        <p><strong>Full Name:</strong> Antor</p>
+        <p><strong>Game Name:</strong> —͞ANTORㅤ!i</p>
+        <p><strong>Role:</strong> Rusher 1</p>
+        <p><strong>Free Fire UID:</strong> 6777413431</p>
+        <p><strong>Location:</strong> Kishoreganj, Bajitpur, Baliyardir</p>
+        <p><strong>Birth Date:</strong> 18 July 2003</p>
+    </div>
+
+    <div class="player">
+        <h3>Tanjil</h3>
+        <p><strong>Full Name:</strong> Tanjil</p>
+        <p><strong>Game Name:</strong> XT Killer</p>
+        <p><strong>Role:</strong> Rusher 2</p>
+        <p><strong>Free Fire UID:</strong> 2266666538</p>
+        <p><strong>Location:</strong> Mymensingh, Dhobaura Thana, Gram Boti</p>
+        <p><strong>Birth Date:</strong> 22 July 2006</p>
+    </div>
+
+    <div class="player">
+        <h3>Evan Ahmed</h3>
+        <p><strong>Full Name:</strong> Evan Ahmed</p>
+        <p><strong>Game Name:</strong> TMR EVU</p>
+        <p><strong>Role:</strong> Supporter</p>
+        <p><strong>Free Fire UID:</strong> 2886099017</p>
+        <p><strong>Location:</strong> Kishoreganj, Bajitpur, Boliardir</p>
+        <p><strong>Birth Date:</strong> 8 February 2005</p>
+    </div>
+
+    <div class="player">
+        <h3>MD Nirob Hasan</h3>
+        <p><strong>Full Name:</strong> MD Nirob Hasan</p>
+        <p><strong>Game Name:</strong> NIROB BHAI</p>
+        <p><strong>Role:</strong> Sniper</p>
+        <p><strong>Free Fire UID:</strong> 11393212294</p>
+        <p><strong>Location:</strong> Sherpur District, Sherpur Sadar Thana, Vatshala Union</p>
+        <p><strong>Birth Date:</strong> 14 December 2010</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/8801611069877" target="_blank">+8801611069877</a></p>
+    <p><strong>Email:</strong> <a href="mailto:TeamJackalsOfficial@gmail.com">TeamJackalsOfficial@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2026 TEAM JACKALS. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
